@@ -1,16 +1,16 @@
-<b>DESIGN FOR HA.</b>
+# DESIGN FOR HA>
 
 
 
-# Azure Front Door
+## Azure Front Door
 
-# Azure Traffic Manager
+## Azure Traffic Manager
 
-# HA Solution for Compute
+## HA Solution for Compute
 
-# HA Solution for SQL 
+## HA Solution for SQL 
 
-# HA Solution for Non-SQL
+## HA Solution for Non-SQL
 
 Service Tiers: DTU & vCore
 
