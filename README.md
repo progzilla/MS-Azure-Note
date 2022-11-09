@@ -7,4 +7,4 @@
 
 3. [Microsoft Ignite: Intelligent Cloud Challenge](https://learn.microsoft.com/en-gb/users/cloudskillschallenge/collections/qdgnhgkz1r78)
 
-4. [MS Learn, Solutions Architect, Learning Part](https://bit.ly/3TCZbw5)
+4. [MS Learn, Solutions Architect, Learning Path](https://bit.ly/3TCZbw5)
