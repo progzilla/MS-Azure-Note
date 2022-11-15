@@ -1,44 +1,43 @@
 # DESIGN FOR HA
 
-<b>Identify HA Requirement</b>
+<b>1. Identify HA Requirement</b>
 
 HA workloads are:
 - Resilient to component failure
 - Can run in a healthy state with no significant downtime
 
-- HA Targets
--- consider cost & complexity(define SLA)
---- self-healing & self-diagnosing
---- detecting outages quickly
---- define tolerable time window
---- consider MTBF & MTTR measurements.
--- Identify Dependencies
--- internal and external dep.
--- esp. external deps must be HA
--- Identify critical system flows
--- Identify less critical components
-- Availability Metrics
--- MTTR(avg. time to restore)
--- MTBF(how long a component outage is reasonably expected to last)
-- Understand SLAs
--- its all about Micrsoft's commitment to uptime & connectivity
--- Different services have diff. SLAs
--- if SLA isn't met, some service credit is issued to the customer
--- SLAs acts as enforcement policy
--- Use SLA estimator
+- HA Targets<br />
+-- consider cost & complexity(define SLA)<br />
+--- self-healing & self-diagnosing<br />
+--- detecting outages quickly<br />
+--- define tolerable time window<br />
+--- consider MTBF & MTTR measurements.<br />
+-- Identify Dependencies<br />
+--- internal and external dep.<br />
+--- esp. external deps must be HA<br />
+--- Identify critical system flows<br />
+--- Identify less critical components<br />
+- Availability Metrics<br />
+-- MTTR(avg. time to restore)<br />
+-- MTBF(how long a component outage is reasonably expected to last)<br />
+- Understand SLAs<br />
+-- its all about Micrsoft's commitment to uptime & connectivity<br />
+-- Different services have diff. SLAs<br />
+-- if SLA isn't met, some service credit is issued to the customer<br />
+-- SLAs acts as enforcement policy<br />
+-- Use SLA estimator<br />
 
 
-<b>Azure Front Door</b>
+<b>2. Azure Front Door</b>
 
 
 
-<b>Azure Traffic Manager</b>
 
-<b>HA Solution for Compute</b>
+<b>3. Azure Traffic Manager</b>
 
-<b>HA Solution for SQL</b>
+<b>4. HA Solution for Compute</b>
 
-<b>HA Solution for Non-SQL</b>
+<b>5. HA Solution for SQL</b>
 
-Service Tiers: DTU & vCore
+<b>6. HA Solution for Non-SQL</b>
 
