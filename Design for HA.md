@@ -7,25 +7,25 @@ HA workloads are:
 - Can run in a healthy state with no significant downtime
 
 - HA Targets<br />
--- consider cost & complexity(define SLA)<br />
---- self-healing & self-diagnosing<br />
---- detecting outages quickly<br />
---- define tolerable time window<br />
---- consider MTBF & MTTR measurements.<br />
--- Identify Dependencies<br />
---- internal and external dep.<br />
---- esp. external deps must be HA<br />
---- Identify critical system flows<br />
---- Identify less critical components<br />
+	- Consider cost & complexity(define SLA)<br />
+		- self-healing & self-diagnosing<br />
+		- detecting outages quickly<br />
+		- define tolerable time window<br />
+		- consider MTBF & MTTR measurements.<br />
+	- Identify Dependencies<br />
+		- internal and external dep.<br />
+		- esp. external deps must be HA<br />
+		- identify critical system flows<br />
+		- identify less critical components<br />
 - Availability Metrics<br />
--- MTTR(avg. time to restore)<br />
--- MTBF(how long a component outage is reasonably expected to last)<br />
+	- MTTR(avg. time to restore)<br />
+	- MTBF(how long a component outage is reasonably expected to last)<br />
 - Understand SLAs<br />
--- its all about Micrsoft's commitment to uptime & connectivity<br />
--- Different services have diff. SLAs<br />
--- if SLA isn't met, some service credit is issued to the customer<br />
--- SLAs acts as enforcement policy<br />
--- Use SLA estimator<br />
+	- Its all about Micrsoft's commitment to uptime & connectivity<br />
+	- Different services have diff. SLAs<br />
+	- If SLA isn't met, some service credit is issued to the customer<br />
+	- SLAs acts as enforcement policy<br />
+	- Use SLA estimator<br />
 
 
 <b>2. Azure Front Door</b>
