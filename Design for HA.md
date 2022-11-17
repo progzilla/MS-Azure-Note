@@ -30,10 +30,36 @@ HA workloads are:
 
 <b>2. Azure Front Door</b>
 
+A modern CDN/AppDN using Microsft's Edge Network
 
+- Optimizes access to content
+- Providers another layer of reliability
+- Offers intelligent threat protection
+- Provides Global LB & site Acceleration for WebApp
+- Offers 7 layer 7 capabilities e.g 
+	- SSl offload, 
+	- path-based routing, 
+	- fast failover,
+	- caching, etc
+
+Case Study - FD for Reliability
+
+![Azure Front Door Use Case](https://learn.microsoft.com/en-gb/training/wwl-azure/design-for-high-availability/media/front-door-integrate.png "Azure Front Door Use Case")
+
+ - The use of priority-based routing for traffic
+ - For HA, a secondary region serves is on standby for failover
+ - Geo-replication is used to sync data to stanby region
+ 
+HA Approaches
+
+ - A/P+HS: HS means VMs in s*by region are on AlwaysOn mode. Expensive
+ - A/P+CS: CS means VMs in s*by region aren't allocated till needed for failover. Cheaper but not so reliable
+ - A/A: Both regions are active with LB serving requests btw them.
 
 
 <b>3. Azure Traffic Manager</b>
+
+
 
 <b>4. HA Solution for Compute</b>
 
